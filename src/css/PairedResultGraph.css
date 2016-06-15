@@ -1,0 +1,57 @@
+.base {
+    font: 10px sans-serif;
+}
+
+.box .center {
+}
+
+.box .axis-aligned-square {
+    cursor: pointer;
+}
+
+.box line,
+.whisker-upper {
+    cursor: pointer;
+    fill: #fff;
+    stroke: #000;
+    stroke-width: 1px;
+}
+
+.box .whisker-lower {
+    cursor: pointer;
+    fill: #000;
+    stroke-width: 1px;
+}
+
+.box rect {
+    cursor: pointer;
+    fill: #000;
+}
+
+rect.zoom-pane {
+    pointer-events: all;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+div.tooltip-container {
+    position: absolute;
+    opacity: 0;
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    border-radius: 2px;
+}
+
+.legend-container {
+    fill: #fff;
+    width: 200px;
+    height: 50px;
+}
